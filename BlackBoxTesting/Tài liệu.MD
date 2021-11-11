@@ -112,7 +112,7 @@ Dựa vào các thông tin của người dùng hãy phán đoán xem người c
 
 
 
-## 3. Hàm đánh giá
+## 3. Hàm dư đoán predictAction
 
 ```javascript
 const mood = {
@@ -191,8 +191,7 @@ module.exports = {
 ## 4. Dùng 2 kĩ thuật kiểm thử hộp đen
 
 Trạng thái của người chơi
-- Vui: 3|T|T|||||T|T
-|x == 2|||T|T|||
+- Vui: 3
 - Bình thường: 2
 - Chán: 1
 
@@ -290,7 +289,7 @@ Kết quả kiểm thử
 |35|3|True|1000|Delete game|
 |36|3|True|(1000, intMax)|Error|
 
-### C Kiểm thử sử dụng bảng quyết định
+### C. Kiểm thử sử dụng bảng quyết định
 
 ####
 
