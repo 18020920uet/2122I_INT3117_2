@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "boundary-test": "node_modules/mocha/bin/mocha boundary_test.js",
+    "decision-table-test": "node_modules/mocha/bin/mocha decision_table_test.js"
+  },
+  "dependencies": {
+    "mocha": "^9.1.3"
+  }
+}
